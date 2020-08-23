@@ -60,5 +60,18 @@ Example:
 
 Command : `psql -h 'server name' -p 'server port number' -U 'username' 'database name'`
 
-fdfsdf
-dfdfg
+Example:
+![](./images/3.png)
+
+####Alternative way:
+
+In command line interface:
+* type `psql`
+* give user password
+* go to list by typing `\l`
+* find the database and type `\c 'database name'`
+
+Example:
+
+![](./images/4.png)
+
