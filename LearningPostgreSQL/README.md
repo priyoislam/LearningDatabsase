@@ -12,7 +12,7 @@ _Brillianr Research Team_
 A database is an organized collection of data, generally stored and accessed electronically from a computer system. Where databases are more complex they are often developed using formal design and modeling techniques.
 #### What is DBMS?
 A Database Management System (DBMS) is software designed to store, retrieve, define, and manage data in a database.
-#### Whaat is RDBMS?
+#### What is RDBMS?
 A relational database is a digital database based on the relational model of data, as proposed by E. F. Codd in 1970.[1] A software system used to maintain relational databases is a relational database management system (RDBMS).
 #### What is PostgreSQL?
 PostgreSQLalso known as Postgres, is a free and open-source relational database management system (RDBMS) emphasizing extensibility and SQL compliance. 
