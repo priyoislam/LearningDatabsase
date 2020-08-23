@@ -8,3 +8,5 @@ _Brillianr Research Team_
 
 
 ## Installation  <a name="installation"></a>
+You can download PostgresSQL for Windows form [here](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads).
+You can follow this installation [guide](https://github.com/silenthunter007/postgresql)
