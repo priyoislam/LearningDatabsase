@@ -20,3 +20,21 @@ PostgreSQLalso known as Postgres, is a free and open-source relational database 
 ## Installation  <a name="installation"></a>
 You can download  PostgresSQL for Windows form [here](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads).
 You can follow this installation [guide](https://github.com/silenthunter007/postgresql).
+
+## Getting Started
+
+#### How to run PostgreSQL?
+After installation open the SQL Shell(psql) which is the command line terminal for PostgreSQL.Follow the following command: 
+
+`Server [localhost]:`   > press Enter
+
+`Database [postgres]:`  > press Enter
+
+`Port [5432]:`> press Enter
+
+`Username [postgres]:` > press Enter
+
+`Password for user postgres:` > Enter your password
+
+the PostgreSQL shall be up and running.
+![](./images/1.JPG)
