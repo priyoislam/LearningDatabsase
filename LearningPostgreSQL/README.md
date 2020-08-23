@@ -60,10 +60,11 @@ Example:
 
 Command : `psql -h 'server name' -p 'server port number' -U 'username' 'database name'`
 
-Example:
+Example: 
+
 ![](./images/3.png)
 
-####Alternative way:
+#### Alternative way:
 
 In command line interface:
 * type `psql`
