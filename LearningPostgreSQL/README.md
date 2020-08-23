@@ -1,4 +1,4 @@
 # Hi , I am learning PostgreSQL
 ![](./images/unnamed.png)
 
--Brillianr Research Team-
+_Brillianr Research Team_
