@@ -39,3 +39,23 @@ After installation open the SQL Shell(psql) which is the command line terminal f
 
 the PostgreSQL shall be up and running.
 ![](./images/1.JPG)
+
+## Commands for psql
+| Function              | Command |
+|-----------------------|---------|
+| Help                  | help    |
+| Help for SQL command  | \h      |
+| Help for PSQL command | \\?     |
+| Quit                  | \q      |
+
+## How to create a Database?
+
+Command : `CREATE DATABASE DATABASE_NAME`
+
+Example:
+
+![](./images/2.png)
+
+## How to connect to a Database?
+
+Command : `psql -h 'server name' -p 'server port number' -U 'username' 'database name'`
