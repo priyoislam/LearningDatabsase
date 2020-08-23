@@ -53,5 +53,6 @@ the PostgreSQL shall be up and running.
 ## Create a Database
 
 Command : `CREATE DATABASE DATABASE_NAME`
+
 Example:
 ![](./images/2.png)
