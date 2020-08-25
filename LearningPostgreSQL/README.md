@@ -165,14 +165,17 @@ Let us insert some data in previously created table `person` :
 ````
 ### How to show table record ?
 
-Command : ` SELECT * FROM table_name; ` 
+Command : `SELECT * FROM table_name; ` 
+> **"\*"** specifies to select all the columns of the table <br/>
+to select a specific column type column name in place of **"\*"**<br/>
+to select multiple column, type desired column names with comma **","**
 
 ### How to add demo record in table?
 
 * Go to [www.mockaroo.com](https://www.mockaroo.com/)
-* Create you table with fieldname,type and options
+* Create you table with fieldname,type and options select number of rows
 * Download the file in **SQL** format.
-* Impost file in data with following command : `\i file_path`
+* Import file in data with following command : `\i file_path`
     > Important note for Windows user : in normal file path CMD/CLI will show `C:: permission denied. ` . The solution to this is to use forward slashes **"/"** in place of backword slashes **"\"** and single quotes . <br/>
     For Example if file path is **"C:\Users\LENOVO\Downloads\person.sql"**<br/>
     Replace it with : **'C:/Users/LENOVO/Downloads/person.sql'**
