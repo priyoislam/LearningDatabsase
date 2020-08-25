@@ -167,7 +167,7 @@ Let us insert some data in previously created table `person` :
 
 Command : `SELECT * FROM table_name; ` 
 > **"\*"** specifies to select all the columns of the table <br/>
-to select a specific column type column name in place of **"\*"**<br/>
+to select a specific column, type column name in place of **"\*"**<br/>
 to select multiple column, type desired column names with comma **","**
 
 ### How to add demo record in table?
@@ -179,6 +179,21 @@ to select multiple column, type desired column names with comma **","**
     > Important note for Windows user : in normal file path CMD/CLI will show `C:: permission denied. ` . The solution to this is to use forward slashes **"/"** in place of backword slashes **"\"** and single quotes . <br/>
     For Example if file path is **"C:\Users\LENOVO\Downloads\person.sql"**<br/>
     Replace it with : **'C:/Users/LENOVO/Downloads/person.sql'**
+
+<br/>
+### How to order data ?
+
+<br/>
+
+```` sql
+
+ SELECT * FROM table_name ORDER by column_name  -- Ascending
+
+ SELECT * FROM table_name ORDER by column_name DESC -- Descending
+
+````
+Example :
+![](./images/7.png)
 
 
 
