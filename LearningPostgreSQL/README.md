@@ -40,7 +40,7 @@ After installation open the SQL Shell(psql) which is the command line terminal f
 the PostgreSQL shall be up and running.
 ![](./images/1.JPG)
 
-## Commands for psql
+## Some useful commands for psql
 | Function              | Command |
 |-----------------------|---------|
 | Help                  | help    |
@@ -50,7 +50,7 @@ the PostgreSQL shall be up and running.
 
 ## How to create a Database?
 
-Command : `CREATE DATABASE DATABASE_NAME`
+Command : `CREATE DATABASE database_name;`
 
 Example:
 
@@ -58,7 +58,7 @@ Example:
 
 ## How to connect to a Database?
 
-Command : `psql -h 'server name' -p 'server port number' -U 'username' 'database name'`
+Command : `psql -h server_name -p server_port_number -U username database_name`
 
 Example: 
 
@@ -70,9 +70,27 @@ In command line interface:
 * type `psql`
 * give user password
 * go to list by typing `\l`
-* find the database and type `\c 'database name'`
+* find the database and type `\c database_name`
 
 Example:
 
 ![](./images/4.png)
+
+
+## How to delete a Database?
+
+Command : `DROP DATABASE database_name;`
+
+
+## How to create a table?
+
+````sql
+
+CREATE TABLE table_name{
+    Column name + data types + constraints if any
+}
+
+````
+
+
 
