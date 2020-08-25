@@ -90,7 +90,23 @@ CREATE TABLE table_name{
     Column name + data types + constraints if any
 }
 
+-- Example of create a table without constraints: 
+
+CREATE TABLE person(
+    id int,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    gender VARCHAR(6),
+    date_of_birth TIMESTAMP,
+);
+
 ````
+You can check if the table is created by command : `\d`
+
+and checking the datatypes of the table by command : `\d table_name`
+
+![](./images/5.png)
+
 
 
 
