@@ -7,6 +7,11 @@ _Brilliant Research Team_
 ## Table of contents
 * [Introduction](#intro)
 * [Installation](#installation)
+* [Database Operation](#db)
+    * [Create Database](#db1)
+    * [Connect Database](#db2)
+    * [Delete Database](#db3)
+    * [Create Table in Database](#db4)
 
 ## Introduction  <a name="intro"></a>
 #### What is Database?
@@ -48,7 +53,10 @@ the PostgreSQL shall be up and running.
 | Help for PSQL command | \\?     |
 | Quit                  | \q      |
 
-## How to create a Database?
+
+## DATABASE OPERATION <a name="db"></a>
+
+## How to create a Database? <a name="db1"></a>
 
 Command : `CREATE DATABASE database_name;`
 
@@ -56,7 +64,7 @@ Example:
 
 ![](./images/2.png)
 
-## How to connect to a Database?
+## How to connect to a Database? <a name="db2"></a>
 
 Command : `psql -h server_name -p server_port_number -U username database_name`
 
@@ -77,12 +85,12 @@ Example:
 ![](./images/4.png)
 
 
-## How to delete a Database?
+## How to delete a Database? <a name="db3"></a>
 
 Command : `DROP DATABASE database_name;`
 
 
-## How to create a table?
+## How to create a table? <a name="db4"></a>
 
 ````sql
 
@@ -106,6 +114,21 @@ You can check if the table is created by command : `\d`
 and checking the datatypes of the table by command : `\d table_name`
 
 ![](./images/5.png)
+
+
+
+```` sql
+-- Example of create a table with constraints: 
+
+CREATE TABLE person(
+    id int,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    gender VARCHAR(6),
+    date_of_birth TIMESTAMP,
+);
+
+````
 
 
 
