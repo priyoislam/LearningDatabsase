@@ -174,10 +174,8 @@ Command : ` SELECT * FROM table_name; `
 * Download the file in **SQL** format.
 * Impost file in data with following command : `\i file_path`
     > Important note for Windows user : in normal file path CMD/CLI will show `C:: permission denied. ` . The solution to this is to use forward slashes **"/"** in place of backword slashes **"\"** and single quotes . 
-
-    > For Example if file path is **"C:\Users\LENOVO\Downloads\person.sql"**
-
-    > Repalce it with : **'C:/Users/LENOVO/Downloads/person.sql'**
+    For Example if file path is **"C:\Users\LENOVO\Downloads\person.sql"**
+    Replace it with : **'C:/Users/LENOVO/Downloads/person.sql'**
 
 
 
