@@ -181,6 +181,7 @@ to select multiple column, type desired column names with comma **","**
     Replace it with : **'C:/Users/LENOVO/Downloads/person.sql'**
 
 <br/>
+
 ### How to order data ?
 
 <br/>
@@ -196,6 +197,38 @@ Example :
 ![](./images/7.png)
 
 
+### How to get distinct item from data?
 
+````sql
+SELECT DISTINCT column_name FROM table_name ;
+
+-- also you can select data by order:
+
+SELECT DISTINCT column_name FROM table_name ORDER by column_name;
+````
+Example :
+![](./images/8.png)
+
+
+### How to filter data by 'WHERE' keyword?
+
+In order to select particular rows from this table, we use the `WHERE` keyword.
+
+````sql
+SELECT * FROM table_name WHERE condition
+````
+SQL accepts various inequality symbols, including:
+* = "equal to"
+* \> "greater than"
+* < "less than"
+* \>= "greater than or equal to"
+* <= "less than or equal to"
+
+For Example :
+
+````sql
+SELECT * FROM person WHERE gender='Female'
+````
+![](./images/9.png)
 
 
