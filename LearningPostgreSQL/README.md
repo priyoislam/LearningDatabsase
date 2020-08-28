@@ -212,7 +212,7 @@ Example :
 
 ### How to filter data by 'WHERE' keyword?
 
-In order to select particular rows from this table, we use the `WHERE` keyword.
+In order to select particular rows from this table, you can use the `WHERE` keyword.
 
 ````sql
 SELECT * FROM table_name WHERE condition
@@ -231,4 +231,11 @@ SELECT * FROM person WHERE gender='Female'
 ````
 ![](./images/9.png)
 
+In SQL you can also use multiple condition with 
+
+* `AND` &nbsp; "to select data with both condition"
+* `OR` &nbsp; "to select data with either condition"
+* `IN` &nbsp;"to select data in a list of several possible values
+"
+* `NOT IN` &nbsp;"To select data that are not in a list"
 
