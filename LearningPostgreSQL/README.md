@@ -233,9 +233,9 @@ SELECT * FROM person WHERE gender='Female'
 
 In SQL you can also use multiple condition with 
 
-* `AND` &nbsp; "to select data with both condition"
-* `OR` &nbsp; "to select data with either condition"
-* `IN` &nbsp;"to select data in a list of several possible values
+* `AND` &nbsp; "To select data with both condition"
+* `OR` &nbsp; "To select data with either condition"
+* `IN` &nbsp;"To select data in a list of several possible values
 "
 * `NOT IN` &nbsp;"To select data that are not in a list"
 
