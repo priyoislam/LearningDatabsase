@@ -7,11 +7,14 @@ _Brilliant Research Team_
 ## Table of contents
 * [Introduction](#intro)
 * [Installation](#installation)
+* [Getting Started](#gstarted)
 * [Database Operation](#db)
     * [Create Database](#db1)
     * [Connect Database](#db2)
     * [Delete Database](#db3)
     * [Create Table in Database](#db4)
+    * [Inserting Record in Table ](#db5)
+    * [Show Table Record](#db6)
 
 ## Introduction  <a name="intro"></a>
 #### *What is Database?*
@@ -27,7 +30,7 @@ PostgreSQLalso known as Postgres, is a free and open-source relational database 
 [x] You can download  PostgresSQL for Windows form [here](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads).
 You can follow this installation [guide](https://github.com/silenthunter007/postgresql).
 
-## Getting Started
+## Getting Started<a name="gstarted"></a>
 
 ### How to run PostgreSQL?
 After installation open the SQL Shell(psql) which is the command line terminal for PostgreSQL.Follow the following command: 
@@ -54,6 +57,7 @@ the PostgreSQL shall be up and running.
 | Quit                  | \q      |
 | Clearing the CMD      | \\! cls  |
 
+<br>
 
 ## DATABASE OPERATION <a name="db"></a>
 
@@ -243,20 +247,41 @@ In SQL you can also use multiple condition with
 
 ### Arithmatic comparison operation
 
-<br>
-
 ![](./images/10.png)
 
 <br/>
-
-
 ### Limit , Offset and Fetch
 
+Limit keyword limit the number of rows when executing a query.
+
+Offset keyword skip the given number of rows when executing a query.
+
+Fetch keyword work as Limit but Fetch is used in standarad sql.
 
 ### *Limit*
 
 ````sql
-SELECT * FROM table_name LIMIT number;
+SELECT * FROM table_name LIMIT count;
 ````
 
 ![](./images/11.png)
+
+
+### *Offset*
+
+````sql
+SELECT * FROM table_name OFFSET count LIMIT count;
+````
+
+![](./images/12.png)
+
+
+### *Fetch*
+
+````sql
+SELECT * FROM table_name OFFSET count FETCH NEXT count ROWS ONLY;
+````
+
+![](./images/12.png)
+
+
