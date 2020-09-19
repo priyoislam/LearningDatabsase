@@ -15,6 +15,10 @@ _Brilliant Research Team_
     * [Create Table in Database](#db4)
     * [Inserting Record in Table ](#db5)
     * [Show Table Record](#db6)
+    * [Order Data](#db7)
+    * ["Where" keyword](#db8)
+    * [Arithmatic Comparison](#db9)
+    * [Limit, Offset and Fetch](#db10)
 
 ## Introduction  <a name="intro"></a>
 #### *What is Database?*
@@ -142,7 +146,7 @@ CREATE TABLE person(
 ![](./images/6.JPG)
 
 
-### How to insert record into table?
+### How to insert record into table?<a name="db5"></a>
 
 Let us insert some data in previously created table `person` :
 
@@ -167,7 +171,7 @@ Let us insert some data in previously created table `person` :
     VALUES('Moinul','Islam','Male',DATE '1997-08-04');
 
 ````
-### How to show table record ?
+### How to show table record ?<a name="db6"></a>
 
 Command : `SELECT * FROM table_name; ` 
 > **"\*"** specifies to select all the columns of the table <br/>
@@ -184,11 +188,8 @@ to select multiple column, type desired column names with comma **","**
     For Example if file path is **"C:\Users\LENOVO\Downloads\person.sql"**<br/>
     Replace it with : **'C:/Users/LENOVO/Downloads/person.sql'**
 
-<br/>
 
-### How to order data ?
-
-<br/>
+### How to order data ?<a name="db7"></a>
 
 ```` sql
 
@@ -198,7 +199,7 @@ to select multiple column, type desired column names with comma **","**
 
 ````
 Example :
-![](./images/7.png)
+![](./images/7.PNG)
 
 
 ### How to get distinct item from data?
@@ -211,10 +212,10 @@ SELECT DISTINCT column_name FROM table_name ;
 SELECT DISTINCT column_name FROM table_name ORDER by column_name;
 ````
 Example :
-![](./images/8.png)
+![](./images/8.PNG)
 
 
-### How to filter data by 'WHERE' keyword?
+### How to filter data by 'WHERE' keyword?<a name="db8"></a>
 
 In order to select particular rows from this table, you can use the `WHERE` keyword.
 
@@ -234,7 +235,7 @@ For Example :
 ````sql
 SELECT * FROM person WHERE gender='Female'
 ````
-![](./images/9.png)
+![](./images/9.PNG)
 
 In SQL you can also use multiple condition with 
 
@@ -245,12 +246,11 @@ In SQL you can also use multiple condition with
 * `NOT IN` &nbsp;"To select data that are not in a list"
 
 
-### Arithmatic comparison operation
+### Arithmatic comparison operation <a name="db9"></a>
 
-![](./images/10.png)
+![](./images/10.PNG)
 
-<br/>
-### Limit , Offset and Fetch
+### Limit , Offset and Fetch <a name="db10"></a>
 
 Limit keyword limit the number of rows when executing a query.
 
@@ -264,7 +264,7 @@ Fetch keyword work as Limit but Fetch is used in standarad sql.
 SELECT * FROM table_name LIMIT count;
 ````
 
-![](./images/11.png)
+![](./images/11.PNG)
 
 
 ### *Offset*
@@ -273,7 +273,7 @@ SELECT * FROM table_name LIMIT count;
 SELECT * FROM table_name OFFSET count LIMIT count;
 ````
 
-![](./images/12.png)
+![](./images/12.PNG)
 
 
 ### *Fetch*
@@ -282,6 +282,6 @@ SELECT * FROM table_name OFFSET count LIMIT count;
 SELECT * FROM table_name OFFSET count FETCH NEXT count ROWS ONLY;
 ````
 
-![](./images/12.png)
+![](./images/12.PNG)
 
 
