@@ -282,6 +282,15 @@ SELECT * FROM table_name OFFSET count LIMIT count;
 SELECT * FROM table_name OFFSET count FETCH NEXT count ROWS ONLY;
 ````
 
-![](./images/12.PNG)
+![](./images/13.PNG)
 
+
+### IN keyword for multiple values
+
+To find data of multiple values of a same column we can use IN keyword. 
+
+````sql
+SELECT * FROM table_name WHERE column_name IN ('value1','value2',...);
+````
+![](./images/14.PNG)
 
