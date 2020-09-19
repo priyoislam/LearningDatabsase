@@ -223,6 +223,7 @@ SQL accepts various inequality symbols, including:
 * < "less than"
 * \>= "greater than or equal to"
 * <= "less than or equal to"
+* != / <> "not equal to"
 
 For Example :
 
@@ -239,3 +240,23 @@ In SQL you can also use multiple condition with
 "
 * `NOT IN` &nbsp;"To select data that are not in a list"
 
+
+### Arithmatic comparison operation
+
+<br>
+
+![](./images/10.png)
+
+<br/>
+
+
+### Limit , Offset and Fetch
+
+
+### *Limit*
+
+````sql
+SELECT * FROM table_name LIMIT number;
+````
+
+![](./images/11.png)
