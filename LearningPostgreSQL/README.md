@@ -250,7 +250,7 @@ In SQL you can also use multiple condition with
 
 ![](./images/10.PNG)
 
-### Limit , Offset and Fetch <a name="db10"></a>
+### Limit , Offset and Fetch keyword <a name="db10"></a>
 
 Limit keyword limit the number of rows when executing a query.
 
@@ -285,7 +285,7 @@ SELECT * FROM table_name OFFSET count FETCH NEXT count ROWS ONLY;
 ![](./images/13.PNG)
 
 
-### IN keyword for multiple values
+### "IN" and "Between" keyword 
 
 To find data of multiple values of a same column we can use IN keyword. 
 
@@ -293,4 +293,13 @@ To find data of multiple values of a same column we can use IN keyword.
 SELECT * FROM table_name WHERE column_name IN ('value1','value2',...);
 ````
 ![](./images/14.PNG)
+
+To find data of between a range two values of a column we can use BETWEEN keyword. 
+
+````sql
+SELECT * FROM table_name WHERE column_name BETWEEN value1 AND value2;
+````
+
+![](./images/15.PNG)
+
 
