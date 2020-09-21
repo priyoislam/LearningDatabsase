@@ -50,7 +50,7 @@ After installation open the SQL Shell(psql) which is the command line terminal f
 `Password for user postgres:` > Enter your **password**
 
 the PostgreSQL shall be up and running.
-![](./images/1.JPG)
+![](./images/1.PNG)
 
 ### Some useful commands for psql
 | Function              | Command |
