@@ -250,7 +250,7 @@ In SQL you can also use multiple condition with
 
 ![](./images/10.PNG)
 
-### Limit , Offset and Fetch keyword <a name="db10"></a>
+### LIMIT , OFFSET and FETCH <a name="db10"></a>
 
 Limit keyword limit the number of rows when executing a query.
 
@@ -285,7 +285,7 @@ SELECT * FROM table_name OFFSET count FETCH NEXT count ROWS ONLY;
 ![](./images/13.PNG)
 
 
-### "IN" and "Between" keyword 
+### IN & BETWEEN 
 
 To find data of multiple values of a same column we can use IN keyword. 
 
@@ -302,4 +302,45 @@ SELECT * FROM table_name WHERE column_name BETWEEN value1 AND value2;
 
 ![](./images/15.PNG)
 
+
+### LIKE & ILIKE 
+
+The LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
+
+There are two wildcards often used in conjunction with the LIKE operator:
+
+% - The percent sign represents zero, one, or multiple characters
+
+_ - The underscore represents a single character
+
+
+![](./images/16.PNG)
+
+![](./images/17.PNG)
+
+LIKE keyword is case sensitive.
+
+![](./images/18.PNG)
+
+To search data with ignoring the case we can use ILIKE keyword.
+
+![](./images/19.PNG)
+
+
+### GROUP BY & GROUP BY HAVING
+
+The GROUP BY statement groups rows that have the same values into summary rows, like "find the number of customers in each country".
+
+The GROUP BY statement is often used with aggregate functions (COUNT, MAX, MIN, SUM, AVG) to group the result-set by one or more columns
+
+````sql
+SELECT column_name(s) FROM table_name GROUP BY column_name(s) ORDER BY column_name(s)
+````
+
+![](./images/20.PNG)
+
+
+The HAVING keyword can be used with GROUP BY to add extra condition to be used with aggregate functions.
+
+![](./images/21.PNG)
 
